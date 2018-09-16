@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dl-Movie</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+
+
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+
+
+	<script>
+
+	$(document).ready(function(e) {
+        $('#searchbtn').click(function(e) {
+            $('#showHideDivd').slideToggle(500);
+
+        });
+
+		$('#btn_menu').click(function(e) {
+			$('#showHideDiv').slideToggle(500);
+		});
+		$('#Info_BT0').click(function(e) {
+			$('#Info_S01').slideToggle(500);
+		});
+		
+    });
+
+
+	$(document).ready(function(R){
+		$('.owl-carousel').owlCarousel({
+			items:4,
+    		loop:true,
+    		margin:10,
+    		autoplay:true,
+    		autoplayTimeout:500,
+    		autoplayHoverPause:true,
+			merge:true,
+			navigation:true,
+    		responsive:{
+				200:{
+            		items:3
+        		},
+        		480:{
+            		items:3
+        		},
+				768:{
+            		items:4
+        		},
+        		992:{
+            		items:5
+        		},
+        		1200:{
+            		items:6
+        		},
+				678:{
+            		mergeFit:true
+        		},
+        		1000:{
+            		mergeFit:false
+        		}
+    		}
+		});
+	});
+
+
+
+
+	$(document).ready(function(C){
+		$('.CenterA').slick({
+  		centerMode: true,
+  		centerPadding: '60px',
+		slidesToShow:3,
+  		autoplay: true,
+		prevArrow:'#PRV',
+		nextArrow:'#NTX',
+  		responsive: [
+			{
+			  breakpoint: 768,
+			  settings: {
+				arrows: false,
+				centerMode: true,
+				centerPadding: '20px',
+				slidesToShow: 2,
+			  }
+			},
+			{
+			  breakpoint: 480,
+			  settings: {
+				arrows: false,
+				centerMode: false,
+				centerPadding: '20px',
+				slidesToShow: 3,
+			  }
+			}
+		  ]
+			});
+
+		});
+
+
+
+	   $(window).ready(function() {$('#slider').nivoSlider();});
+		$(document).ready(function(){$('#Mozooat').navMenu();$('#Serialha').navMenu();$('#Collection').navMenu();});
+		$(function() { $("#example-one").organicTabs();$("#example-two").organicTabs({"speed": 200});});
+
+
+	</script>
+
+
+</head>
+
+<body>
+
+	<div class="container">
+
+		<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 header p0">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 inside_header p0">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-2 menu p0">
+					<button id="btn_menu" class="button-menu" ><i class="fa fa-align-justify"></i></button>
+
+					<div class="menu-div-open-close"></div>
+					</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-8 center p0">
+				
+				
+				   
+				</div>
+				<div  class="col-lg-3 col-md-3 col-sm-3 col-xs-2 search p0">
+					<button id="searchbtn" class="button-search"><i class="fa fa-search"></i></button>
+					<div class="search-div-open-close p0"></div>
+				</div>
+				<!-- Button -->
+				
+				<div class="dropdown">
+				  <button class="dropbtn">ورود</button>
+				</div>
+			  <div class="dropdown">
+				  <button class="dropbtn">عضویت</button>
+				</div>
+				<div class="dropdown">
+				  <button class="dropbtn">تماس با ما</button>
+				  <div class="dropdown-content">
+					<a href="#"></a>
+					<a href="#"></a>
+					<a href="#"></a>
+				  </div>
+				</div> 
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 menu_top_open_close p0" id="showHideDiv" >
+					<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 column">
+						<div class="row"><a href="#">صفحه نخست</a></div>
+						<div class="row"><a href="#">تمام آرشیو</a></div>
+						<div class="row"><a href="#">پر بازدیدترین ها</a></div>
+						<div class="row"><a href="#">تفکیک بر اساس نمره</a></div>
+						<div class="row"><a href="#">تفکیک بر اساس سال</a></div>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 column">
+						<div class="row"><a href="#">ایرانی</a></div>
+						<div class="row"><a href="#">مراسم</a></div>
+						<div class="row"><a href="#">تریلر</a></div>
+						<div class="row"><a href="#">تفکیک بر اساس ژانر</a></div>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 column">
+						<div class="row"><a href="#">اکشن</a></div>
+						<div class="row"><a href="#">ماجراجویی</a></div>
+						<div class="row"><a href="#">انیمیشن</a></div>
+						<div class="row"><a href="#">زندگی نامه</a></div>
+						<div class="row"><a href="#">جنگی</a></div>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 column">
+						<div class="row"><a href="#">کمدی</a></div>
+						<div class="row"><a href="#">جنایی</a></div>
+						<div class="row"><a href="#">مستند</a></div>
+						<div class="row"><a href="#">درام</a></div>
+						<div class="row"><a href="#">خانوادگی</a></div>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 column">
+						<div class="row"><a href="#">فانتزی</a></div>
+						<div class="row"><a href="#">تاریخی</a></div>
+						<div class="row"><a href="#">ترسناک</a></div>
+						<div class="row"><a href="#">رازآلود</a></div>
+						<div class="row"><a href="#">موزیکال</a></div>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 column">
+						<div class="row"><a href="#">عاشقانه</a></div>
+						<div class="row"><a href="#">ورزشی</a></div>
+						<div class="row"><a href="#">علمی - تخیلی</a></div>
+						<div class="row"><a href="#">وسترن</a></div>
+						<div class="row"><a href="#">بالیوود</a></div>
+					</div>
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 search_top_open_close p0" id="showHideDivd">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 search_top ">
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 Blink"></div>
+						<input class="col-lg-5 col-md-5 col-sm-5 col-xs-5 Place-Search" type="text" name="search" placeholder="Searching...">
+						<button class="col-lg-1 col-md-1 col-sm-1 col-xs-1 Bttn-Search p0" type="submit"><i class="fa fa-search"></i></button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- New post -->
+		<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 New-Post1 p0">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Head-Top p0">
+			<div class="Lib-Top p0">برترین فیلم ها به انتخاب کاربران<i class="fa fa-film" aria-hidden="true"></i>
+			</div>
+			<button type="button" id="PRV" class="slick-prev"><i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i></button>
+			<button type="button" id="NTX" class="slick-next"><i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i></button></div>
+
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 CenterA row-NewP p0">
+        			<a href="#"><div class="New-1 p0" data-merge="1">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 New-00 p0">
+						<img src="img/2.jpg" class="img-responsive" alt="Cinque Terre">
+						<div class="Quality">1080P</div>
+						<div class="Dubbed">دوبله</div>
+						<div class="Movie-Name-1" href="#">Fantastic Beasts and Where to Find Them</div>
+						</div></div></a>
+					<a href="#"><div class="New-1 p0" data-merge="1">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 New-00 p0">
+						<img src="img/D.jpg" class="img-responsive" alt="Cinque Terre">
+						<div class="Quality">1080P</div>
+						<div class="Dubbed">دوبله</div>
+						<div class="Movie-Name-1" href="#">Fantastic Beasts and Where to Find Them</div>
+						</div></div></a>
+					<a href="#"><div class="New-1 p0" data-merge="1">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 New-00 p0">
+						<img src="img/3.jpg" class="img-responsive" alt="Cinque Terre">
+						<div class="Quality">1080P</div>
+						<div class="Dubbed">دوبله</div>
+						<div class="Movie-Name-1" href="#">Fantastic Beasts and Where to Find Them</div>
+						</div></div></a>
+					<a href="#"><div class="New-1 p0" data-merge="1">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 New-00 p0">
+						<img src="img/4.jpg" class="img-responsive" alt="Cinque Terre">
+						<div class="Quality">1080P</div>
+						<div class="Dubbed">دوبله</div>
+						<div class="Movie-Name-1" href="#">Fantastic Beasts and Where to Find Them</div>
+						</div></div></a>
+					<a href="#"><div class="New-1 p0" data-merge="1">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 New-00 p0">
+						<img src="img/5.jpg" class="img-responsive" alt="Cinque Terre">
+						<div class="Quality">1080P</div>
+						<div class="Dubbed">دوبله</div>
+						<div class="Movie-Name-1" href="#">Fantastic Beasts and Where to Find Them</div>
+						</div></div></a>
+					<a href="#"><div class="New-1 p0" data-merge="1">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 New-00 p0">
+						<img src="img/D.jpg" class="img-responsive" alt="Cinque Terre">
+						<div class="Quality">1080P</div>
+						<div class="Dubbed">دوبله</div>
+						<div class="Movie-Name-1" href="#">Fantastic Beasts and Where to Find Them</div>
+						</div></div></a>
+			</div>
+
+      	</div>
+      	
+      	
+      	<!-- trailer -->
+      	<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 All-Tis p0">
+         	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Head-Top p0">
+				<div class="Lib-Top p0">آخرین تریلر ها<i class="fa fa-film" aria-hidden="true"></i>
+				</div>
+				<a href="#"><div class="All-Tv"> آرشیو کلی</div></a></div>
+       		<div class= "col-lg-12 col-md-12 col-sm-12 col-xs-12 News p0">
+				<a href="#"><div class="col-lg-12 col-md-6 col-sm-6 col-xs-4 News-0 p0" data-merge="1">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Tv-01 p0">
+						<img src="img/54.jpg" class="img-responsive" alt="Cinque Terre">
+						<div class="Movie-Name" href="#">How I Met Your Mother</div>
+						</div></div></a>
+				<a href="#"><div class="col-lg-4 col-md-6 col-sm-4 col-xs-4 News-0 p0" data-merge="1">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Tv-01 p0">
+							<img src="img/3.jpg" class="img-responsive" alt="Cinque Terre">
+							<div class="Movie-Name" href="#">How I Met Your Mother</div>
+						</div></div></a>
+				<a href="#"><div class="col-lg-4 col-md-6 col-sm-4 col-xs-4 News-0 p0" data-merge="1">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Tr-01 p0">
+							<img src="img/2.jpg" class="img-responsive" alt="Cinque Terre">
+							<div class="Movie-Name" href="#">How I Met Your Mother</div>
+						</div></div></a>
+				<a href="#"><div class="col-lg-4 col-md-6 col-sm-4 col-xs-4 News-0 p0" data-merge="1">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Tr-01 p0">
+							<img src="img/1.jpg" class="img-responsive" alt="Cinque Terre">
+							<div class="Movie-Name" href="#">How I Met Your Mother</div>
+						</div></div></a>
+
+            </div>
+       </div>
+       
+		<!-- Series -->
+		<div class="col-lg-8 col-md-9 col-sm-12 col-xs-12 Seryal p0">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Head-Top p0">
+		<div class="Lib-Top p0">سریال های به روز شده<i class="fa fa-film" aria-hidden="true"></i>
+		</div>
+		<a href="#"><div class="All-Tv"> آرشیو کلی</div></a></div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Tv-Ser p0">
+				<a href="#"><div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 New-0 p0">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 New-00 p0">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Tv-01 p0">
+						<img src="img/57.jpg" class="img-responsive" alt="Cinque Terre">
+						<div class="Season">S07</div>
+						<div class="Episod">E07</div>
+						<div class="Movie-Name" href="#">How I Met Your Mother</div>
+						</div></div></div></a>
+				<a href="#"><div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 New-0 p0">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 New-00 p0">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Tv-01 p0">
+						<img src="img/54.jpg" class="img-responsive" alt="Cinque Terre">
+						<div class="Season">S07</div>
+						<div class="Episod">E07</div>
+						<div class="Movie-Name" href="#">How I Met Your Mother</div>
+						</div></div></div></a>
+				<a href="#"><div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 New-0 p0">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 New-00 p0">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Tv-01 p0">
+						<img src="img/55.jpg" class="img-responsive" alt="Cinque Terre">
+						<div class="Season">S07</div>
+						<div class="Episod">E07</div>
+						<div class="Movie-Name" href="#">How I Met Your Mother</div>
+						</div></div></div></a>
+				<a href="#"><div class="col-lg-3 col-md-4 col-sm-4 col-xs-4 New-0 p0">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 New-00 p0">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Tv-01 p0">
+						<img src="img/57.jpg" class="img-responsive" alt="Cinque Terre">
+						<div class="Season">S07</div>
+						<div class="Episod">E07</div>
+						<div class="Movie-Name" href="#">How I Met Your Mother</div>
+						</div></div></div></a>
+				<a href="#"><div class="col-lg-3 col-md-4 col-sm-4 col-xs-4 New-0 p0">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 New-00 p0">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Tv-01 p0">
+						<img src="img/57.jpg" class="img-responsive" alt="Cinque Terre">
+						<div class="Season">S07</div>
+						<div class="Episod">E07</div>
+						<div class="Movie-Name" href="#">How I Met Your Mother</div>
+						</div></div></div></a>
+				<a href="#"><div class="col-lg-3 col-md-4 col-sm-4 hidden-xs New-0 p0">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 New-00 p0">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Tv-01 p0">
+						<img src="img/55.jpg" class="img-responsive" alt="Cinque Terre">
+						<div class="Season">S07</div>
+						<div class="Episod">E07</div>
+						<div class="Movie-Name" href="#">How I Met Your Mother</div>
+						</div></div></div></a>
+				<a href="#"><div class="col-lg-3 col-md-4 col-sm-4 hidden-xs New-0 p0">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 New-00 p0">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Tv-01 p0">
+						<img src="img/57.jpg" class="img-responsive" alt="Cinque Terre">
+						<div class="Season">S07</div>
+						<div class="Episod">E07</div>
+						<div class="Movie-Name" href="#">How I Met Your Mother</div>
+						</div></div></div></a>
+			</div>
+
+
+
+		</div>
+		
+       
+
+		<!-- Right Calm -->
+     	<div class="col-lg-4 col-md-3 col-sm-3 col-xs-12 Side p0">
+			
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-4 Movie p0">
+					<div  class="VIP-Head">آرشیو فیلم ها</div>
+						<div  class="VIP-In">
+							<div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 Year">
+								<div  class="Head">تفکیک بر اساس سال انتشار</div>
+								<ul>
+									<li><a href="#">1940 - 1950</a></li>
+									<li><a href="#">1940 - 1950</a></li>
+									<li><a href="#">1940 - 1950</a></li><li><a href="#">1940 - 1950</a></li>
+									<li><a href="#">1940 - 1950</a></li>
+									<li><a href="#">1940 - 1950</a></li>
+									<li><a href="#">1940 - 1950</a></li>
+									<li><a href="#">2001</a</li>
+									<li><a href="#">2002</a</li><li><a href="#">2003</a</li><li><a href="#">2004</a</li><li><a href="#">2005</a</li><li><a href="#">2006</a</li><li><a href="#">2007</a</li><li><a href="#">2008</a</li><li><a href="#">2009</a</li><li><a href="#">2010</a</li><li><a href="#">2011</a</li><li><a href="#">2012</a</li><li><a href="#">2013</a</li><li><a href="#">2014</a</li><li><a href="#">2015</a</li><li><a href="#">2016</a</li><li><a href="#">2017</a</li><li><a href="#">2018</a</li>
+								</ul>
+							</div>
+							<div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 Zhanr">
+								<div  class="Head">تفکیک بر اساس ژانر</div>
+								<ul  >
+									<li>ماجراجویی</li>
+									<li>انیمیشن</li>
+									<li>جنگی</li>
+									<li>کمدی</li>
+									<li>جنایی</li>
+									<li>مستند</li>
+									<li>درام</li>
+									<li>فانتزی</li>
+									<li>تاریخی</li>
+									<li>ترسناک</li>
+									<li>زندگی نامه</li>
+									<li>اکشن</li>
+									<li>رازآلود</li>
+									<li>موزیکال</li>
+									<li>عاشقانه</li>
+									<li>ورزشی</li>
+									<li>وسترن</li>
+									<li>علمی - تخیلی</li>
+									<li>بالیوود</li>
+								</ul>
+							</div>
+							<div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 Collection">
+								<div  class="Head">کالکشن ها</div>
+								<ul  >
+									<li>Fantastic Beasts and Where to Find Them 2016</li>
+									<li>Fantastic Beasts and Where to Find Them 2016</li>
+									<li>Fantastic Beasts and Where to Find Them 2016</li>
+									<li>Fantastic Beasts and Where to Find Them 2016</li>
+									<li>Fantastic Beasts and Where to Find Them 2016</li>
+									<li>Fantastic Beasts and Where to Find Them 2016</li>
+									<li>Fantastic Beasts and Where to Find Them 2016</li>
+									<li>Fantastic Beasts and Where to Find Them 2016</li>
+									<li>Fantastic Beasts and Where to Find Them 2016</li>
+									<li>Fantastic Beasts and Where to Find Them 2016</li>
+								</ul>
+							</div>
+							<div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 Q-M">
+								<div  class="Head">تفکیک بر اساس </div>
+								<ul id="Q-01" >
+								<li>Fantastic Beasts and Where to Find Them 2016</li>
+								<li>Fantastic Beasts and Where to Find Them 2016</li>
+								<li>Fantastic Beasts and Where to Find Them 2016</li>
+								<li>Fantastic Beasts and Where to Find Them 2016</li>
+								<li>Fantastic Beasts and Where to Find Them 2016</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-4 Ser p0">
+      			<div  class="VIP-Head">آرشیو سریال ها</div>
+      				<div  class="col-lg-11 col-md-11 col-sm-11 col-xs-12 VIP-In p0">
+      					<ul>
+      						<li>0-9</li>
+      						<li>A</li>
+      						<li>B</li>
+      						<li>C</li>
+      						<li>D</li>
+      						<li>E</li>
+      						<li>F</li>
+      						<li>G</li>
+      						<li>H</li>
+      						<li>I</li>
+      						<li>J</li>
+      						<li>K</li>
+      						<li>L</li>
+      						<li>M</li>
+      						<li>N</li>
+      						<li>O</li>
+      						<li>P</li>
+      						<li>Q</li>
+      						<li>R</li>
+      						<li>S</li>
+      						<li>T</li>
+      						<li>U</li>
+      						<li>V</li>
+      						<li>W</li>
+      						<li>X</li>
+      						<li>Y</li>
+      						<li>Z</li>
+      					</ul>
+      				</div>
+      			</div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-4 Movie-W p0">
+					<div  class="VIP-Head"> پر بازدید ترین ها</div>
+						<div  class="VIP-In">
+								<ul>
+									<li>Fantastic Beasts and Where to Find Them 2016</li>
+									<li>Fantastic Beasts and Where to Find Them 2016</li>
+									<li>Fantastic Beasts and Where to Find Them 2016</li>
+									<li>Fantastic Beasts and Where to Find Them 2016</li>
+									<li>Fantastic Beasts and Where to Find Them 2016</li>
+								</ul>
+						</div>
+					</div>
+
+
+			</div> 
+
+
+		<!-- News -->
+        <div class= "col-lg-8 col-md-12 col-sm-12 col-xs-12 News p0">
+           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Head-Top p0">
+			<div class="Lib-Top p0">آخرین اخبار<i class="fa fa-film" aria-hidden="true"></i>
+			</div>
+			<a href="#"><div class="All-Tv"> آرشیو کلی</div></a></div>
+
+               	<article class="col-lg-12 col-md-6 col-sm-12 col-xs-12 L-News text-justify p0">
+               		<a  href="#"><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 New-Con p0">
+               		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-3 News-img p0">
+               		<img src="img/58.jpg" class="img-responsive" alt="Cinque Terre"></div>
+               		<h2>لئوناردو دی کاپریو سریال “مرزنشین‌ها” را می‌سازد</h2>
+                	<small>25 آبان 1395</small>
+                 	<p class="hidden-xs text-justify">در تاریخ 9 اکتبر تریلری جدید از فیلم "دیوار بزرگ چین" با بازی مت دیمن منتشر شد. "دیوار بزرگ چین" یک فیلم علمی–تخیلی آمریکایی به کارگردانی ژانگ ییمو</p></div></a>
+                 </article>
+                 <article class="col-lg-12 col-md-6 col-sm-12 col-xs-12 L-News p0">
+               		<a  href="#"><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 New-Con p0">
+               		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-3 News-img p0">
+						<img src="img/10-T.jpg" class="img-responsive" alt="Cinque Terre"></div>
+               		<h2>لئوناردو دی کاپریو سریال “مرزنشین‌ها” را می‌سازد</h2>
+               		<small>25 آبان 1395</small>
+                 	<p class="col-lg-8 hidden-xs Text-Info text-justify p0">در تاریخ 9 اکتبر تریلری جدید از فیلم "دیوار بزرگ چین" با بازی مت دیمن منتشر شد. "دیوار بزرگ چین" یک فیلم علمی–تخیلی آمریکایی به کارگردانی ژانگ ییمشیسبو اسشیبست کبیسشبه قرار است در نوامبر سال ۲۰۱۶ منتشر شود.…</p></div></a>
+                 </article>
+
+
+                 <a href="#"><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 News-00 p0">
+                 	<div class="col-lg-12 col-md-12 col-sm-9 col-xs-12 News-01 p0">لئوناردو دی کاپریو سریال “مرزنشین‌ها” را می‌سازد
+                 	<small>25 آبان 1395</small></div></div>
+                 </a>
+                 <a href="#"><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 News-00 p0">
+                 	<div class="col-lg-12 col-md-12 col-sm-9 col-xs-12 News-01 p0">لئوناردو دی کاپریو سریال “مرزنشین‌ها” را می‌سازد
+                 	<small>25 آبان 1395</small></div></div>
+                 </a>
+                 <a href="#"><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 News-00 p0">
+                 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 News-01 p0">لئوناردو دی کاپریو سریال “مرزنشین‌ها” را می‌سازد
+                 	<small>25 آبان 1395</small></div></div>
+                 </a>
+
+
+                 <a href="#"><div class="col-lg-12 col-md-12 col-sm-12 hidden-xs News-00 p0">
+                 	<div class="col-lg-12 col-md-12 col-sm-9 col-xs-12 News-01 p0">لئوناردو دی کاپریو سریال “مرزنشین‌ها” را می‌سازد
+						<small>25 آبان 1395</small></div></div>
+                 </a>
+
+               </div>
+
+		<!-- Posts -->
+		<div class="col-lg-8 col-md-9 col-sm-9 col-xs-12 All-Post p0">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Head-Top p0">
+			<div class="Lib-Top p0">فیلم های به روز شده<i class="fa fa-film" aria-hidden="true"></i>
+			</div>
+			<a href="#"><div class="All-Tv"> آرشیو کلی</div></a></div>
+
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 row-NewP00 p0">
+        		<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 New-001 p0">
+
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Head-Top1 p0">
+					<div class="Lib-Top">Fantastic Beasts and Where to Find Them 2016</div>
+
+				</div>
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 Tool p0">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">2016</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">1080</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">Subtitle</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">+18</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">Dubbed</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Imdb">8.5</div>
+				</div>
+				<div class="col-lg-3 col-md-2 col-sm-2 col-xs-3 New-I p0">
+					<div class="Dubbed-Post">دوبله</div>
+					<img src="img/2.jpg" class="img-responsive" alt="Cinque Terre">
+				</div>
+
+				<div  class="col-lg-8 col-md-8 col-sm-12 col-xs-8 Ditailes-Post p0">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D ">کیفیت 720p و 1080p اضافه شد.</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D ">
+								<i class="fa fa-angle-left" aria-hidden="true"></i> پیغام :</div></div>
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D p0">امریکا | کانادا</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i>کشور :</div></div>
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D p0">اکشن | ماجراجویی | فانتزی  </div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i>ژانر :</div></div>
+								<div id="Info_S0" class="col-lg-12 col-md-12 hiden-sm hidden-xs Ditailes-Post p0">
+							<div class="col-lg-12 col-md-12 hiden-sm hidden-xs Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D p0">انگلیسی</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i>زبان :</div></div>
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D p0">126 دقیقه</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i>زمان :</div></div>
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D p0">500 | 800 | 1200 مگابایت</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i>حجم :</div></div>
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D p0">2016</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i>سال انتشار :</div></div></div>
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D1 p0">David Ayer</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i> کارگردان :</div></div>
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D1 p0">Will Smith, Margot Robbie, Jared Leto</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i> ستارگان :</div></div>
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D1 p0">1080p Web-DL, 720p HDRip, 720p Web-DL, Bluray 1080p, Bluray 720p, Cam</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i> کیفیت :</div></div>
+
+					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 Info-Post p0"></div>
+					</div>
+				<div id="Info_S01" class="col-lg-9 col-md-9 col-sm-12 col-xs-12 Info-Post p0">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Story p0">
+						<p class="text-justify">در تاریخ 9 اکتبر تریلری جدید از فیلم "دیوار بزرگ چین" با بازی مت دیمن منتشر شد. "دیوار بزرگ چین" یک فیلم علمی–تخیلی آمریکایی به کارگردانی ژانگ ییمو است که قرار است در نوامبر سال ۲۰۱۶ منتشر شود.…</p></div>
+				</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Story-Buttons p0">
+						<button	class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Download-Post">دانلود</button>
+						<button	class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Trailer-Post">تریلر</button>
+						<button id="Info_BT0" class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Add-Post">خلاصه داستان</button>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Like-DisLike p0">
+							<span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 likebtn-wrapper" data-theme="custom" data-btn_size="35" data-icon_l="thmb7-u" data-icon_d="thmb7-d" data-icon_l_c="#008800" data-icon_l_c_v="#00ff00" data-icon_d_c="#880000" data-icon_d_c_v="#ff0000" data-bg_c="#9dc3ce" data-brdr_c="#9dc3ce" data-f_family="Tahoma" data-label_fs="r" data-identifier="item_1" data-show_like_label="false" data-counter_clickable="true"></span>
+							<script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script></div>
+
+					</div>
+
+				</div>
+
+
+        		
+        		<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 New-001 p0">
+
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Head-Top1 p0">
+					<div class="Lib-Top">Fantastic Beasts and Where to Find Them 2016</div>
+
+				</div>
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 Tool p0">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Imdb">8.5</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">7.3</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">1080</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">+18</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">Sub On</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">Dub On</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">English</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">Buy</div>
+				</div>
+				<div class="col-lg-3 col-md-2 col-sm-2 col-xs-3 New-I p0">
+					<div class="Dubbed-Post">دوبله</div>
+					<img src="img/1.jpg" class="img-responsive" alt="Cinque Terre">
+				</div>
+
+				<div  class="col-lg-8 col-md-8 col-sm-12 col-xs-8 Ditailes-Post p0">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D1 p0">David Ayer</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i> کارگردان :</div></div>
+
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D1 p0">Will Smith, Margot Robbie, Jared Leto</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i> ستارگان :</div></div>
+
+
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D p0">امریکا | کانادا</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i>کشور :</div></div>
+
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D p0">اکشن | ماجراجویی | فانتزی  </div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i>ژانر :</div></div>
+
+
+					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 Info-Post p0"></div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D ">کیفیت 720p و 1080p اضافه شد.</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D ">
+								<i class="fa fa-angle-left" aria-hidden="true"></i> پیغام :</div></div>
+
+
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Story p0">
+						<p class="text-justify">در تاریخ 9 اکتبر تریلری جدید از فیلم "دیوار بزرگ چین" با بازی مت دیمن منتشر شد. "دیوار بزرگ چین" یک فیلم علمی–تخیلی آمریکایی به کارگردانی ژانگ ییمو است که قرار است در نوامبر سال ۲۰۱۶ منتشر شود.…</p></div>
+				</div>
+
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Story-Buttons p0">
+						<button	class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Download-Post">دانلود</button>
+						<button	class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Trailer-Post">تریلر</button>
+						<button class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Add-Post">Add To WatchList</button>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Like-DisLike p0">
+							<span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 likebtn-wrapper" data-theme="custom" data-btn_size="35" data-icon_l="thmb7-u" data-icon_d="thmb7-d" data-icon_l_c="#008800" data-icon_l_c_v="#00ff00" data-icon_d_c="#880000" data-icon_d_c_v="#ff0000" data-bg_c="#9dc3ce" data-brdr_c="#9dc3ce" data-f_family="Tahoma" data-label_fs="r" data-identifier="item_1" data-show_like_label="false" data-counter_clickable="true"></span>
+							<script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script></div>
+
+					</div>
+
+				</div>
+       		
+        		<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 New-001 p0">
+
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Head-Top1 p0">
+					<div class="Lib-Top">Fantastic Beasts and Where to Find Them 2016</div>
+
+				</div>
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 Tool p0">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Imdb">8.5</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">7.3</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">1080</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">+18</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">Sub On</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">Dub On</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">English</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">Buy</div>
+				</div>
+				<div class="col-lg-3 col-md-2 col-sm-2 col-xs-3 New-I p0">
+					<div class="Dubbed-Post">دوبله</div>
+					<img src="img/3.jpg" class="img-responsive" alt="Cinque Terre">
+				</div>
+
+				<div  class="col-lg-8 col-md-8 col-sm-12 col-xs-8 Ditailes-Post p0">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D1 p0">David Ayer</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i> کارگردان :</div></div>
+
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D1 p0">Will Smith, Margot Robbie, Jared Leto</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i> ستارگان :</div></div>
+
+
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D p0">امریکا | کانادا</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i>کشور :</div></div>
+
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D p0">اکشن | ماجراجویی | فانتزی  </div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i>ژانر :</div></div>
+
+
+					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 Info-Post p0"></div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D ">کیفیت 720p و 1080p اضافه شد.</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D ">
+								<i class="fa fa-angle-left" aria-hidden="true"></i> پیغام :</div></div>
+
+
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Story p0">
+						<p class="text-justify">در تاریخ 9 اکتبر تریلری جدید از فیلم "دیوار بزرگ چین" با بازی مت دیمن منتشر شد. "دیوار بزرگ چین" یک فیلم علمی–تخیلی آمریکایی به کارگردانی ژانگ ییمو است که قرار است در نوامبر سال ۲۰۱۶ منتشر شود.…</p></div>
+				</div>
+
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Story-Buttons p0">
+						<button	class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Download-Post">دانلود</button>
+						<button	class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Trailer-Post">تریلر</button>
+						<button class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Add-Post">Add To WatchList</button>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Like-DisLike p0">
+							<span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 likebtn-wrapper" data-theme="custom" data-btn_size="35" data-icon_l="thmb7-u" data-icon_d="thmb7-d" data-icon_l_c="#008800" data-icon_l_c_v="#00ff00" data-icon_d_c="#880000" data-icon_d_c_v="#ff0000" data-bg_c="#9dc3ce" data-brdr_c="#9dc3ce" data-f_family="Tahoma" data-label_fs="r" data-identifier="item_1" data-show_like_label="false" data-counter_clickable="true"></span>
+							<script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script></div>
+
+					</div>
+
+				</div>
+        		
+        		<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 New-001 p0">
+
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Head-Top1 p0">
+					<div class="Lib-Top">Fantastic Beasts and Where to Find Them 2016</div>
+
+				</div>
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 Tool p0">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Imdb">8.5</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">7.3</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">1080</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">+18</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">Sub On</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">Dub On</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">English</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">Buy</div>
+				</div>
+				<div class="col-lg-3 col-md-2 col-sm-2 col-xs-3 New-I p0">
+					<div class="Dubbed-Post">دوبله</div>
+					<img src="img/4.jpg" class="img-responsive" alt="Cinque Terre">
+				</div>
+
+				<div  class="col-lg-8 col-md-8 col-sm-12 col-xs-8 Ditailes-Post p0">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D1 p0">David Ayer</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i> کارگردان :</div></div>
+
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D1 p0">Will Smith, Margot Robbie, Jared Leto</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i> ستارگان :</div></div>
+
+
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D p0">امریکا | کانادا</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i>کشور :</div></div>
+
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D p0">اکشن | ماجراجویی | فانتزی  </div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i>ژانر :</div></div>
+
+
+					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 Info-Post p0"></div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D ">کیفیت 720p و 1080p اضافه شد.</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D ">
+								<i class="fa fa-angle-left" aria-hidden="true"></i> پیغام :</div></div>
+
+
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Story p0">
+						<p class="text-justify">در تاریخ 9 اکتبر تریلری جدید از فیلم "دیوار بزرگ چین" با بازی مت دیمن منتشر شد. "دیوار بزرگ چین" یک فیلم علمی–تخیلی آمریکایی به کارگردانی ژانگ ییمو است که قرار است در نوامبر سال ۲۰۱۶ منتشر شود.…</p></div>
+				</div>
+
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Story-Buttons p0">
+						<button	class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Download-Post">دانلود</button>
+						<button	class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Trailer-Post">تریلر</button>
+						<button class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Add-Post">Add To WatchList</button>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Like-DisLike p0">
+							<span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 likebtn-wrapper" data-theme="custom" data-btn_size="35" data-icon_l="thmb7-u" data-icon_d="thmb7-d" data-icon_l_c="#008800" data-icon_l_c_v="#00ff00" data-icon_d_c="#880000" data-icon_d_c_v="#ff0000" data-bg_c="#9dc3ce" data-brdr_c="#9dc3ce" data-f_family="Tahoma" data-label_fs="r" data-identifier="item_1" data-show_like_label="false" data-counter_clickable="true"></span>
+							<script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script></div>
+
+					</div>
+
+				</div>
+       		
+        		<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 New-001 p0">
+
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Head-Top1 p0">
+					<div class="Lib-Top">Fantastic Beasts and Where to Find Them 2016</div>
+
+				</div>
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 Tool p0">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Imdb">8.5</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">7.3</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">1080</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">+18</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">Sub On</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">Dub On</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">English</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">Buy</div>
+				</div>
+				<div class="col-lg-3 col-md-2 col-sm-2 col-xs-3 New-I p0">
+					<div class="Dubbed-Post">دوبله</div>
+					<img src="img/5.jpg" class="img-responsive" alt="Cinque Terre">
+				</div>
+
+				<div  class="col-lg-8 col-md-8 col-sm-12 col-xs-8 Ditailes-Post p0">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D1 p0">David Ayer</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i> کارگردان :</div></div>
+
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D1 p0">Will Smith, Margot Robbie, Jared Leto</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i> ستارگان :</div></div>
+
+
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D p0">امریکا | کانادا</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i>کشور :</div></div>
+
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D p0">اکشن | ماجراجویی | فانتزی  </div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i>ژانر :</div></div>
+
+
+					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 Info-Post p0"></div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D ">کیفیت 720p و 1080p اضافه شد.</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D ">
+								<i class="fa fa-angle-left" aria-hidden="true"></i> پیغام :</div></div>
+
+
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Story p0">
+						<p class="text-justify">در تاریخ 9 اکتبر تریلری جدید از فیلم "دیوار بزرگ چین" با بازی مت دیمن منتشر شد. "دیوار بزرگ چین" یک فیلم علمی–تخیلی آمریکایی به کارگردانی ژانگ ییمو است که قرار است در نوامبر سال ۲۰۱۶ منتشر شود.…</p></div>
+				</div>
+
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Story-Buttons p0">
+						<button	class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Download-Post">دانلود</button>
+						<button	class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Trailer-Post">تریلر</button>
+						<button class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Add-Post">Add To WatchList</button>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Like-DisLike p0">
+							<span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 likebtn-wrapper" data-theme="custom" data-btn_size="35" data-icon_l="thmb7-u" data-icon_d="thmb7-d" data-icon_l_c="#008800" data-icon_l_c_v="#00ff00" data-icon_d_c="#880000" data-icon_d_c_v="#ff0000" data-bg_c="#9dc3ce" data-brdr_c="#9dc3ce" data-f_family="Tahoma" data-label_fs="r" data-identifier="item_1" data-show_like_label="false" data-counter_clickable="true"></span>
+							<script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script></div>
+
+					</div>
+
+				</div>
+        		
+        		<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 New-001 p0">
+
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Head-Top1 p0">
+					<div class="Lib-Top">Fantastic Beasts and Where to Find Them 2016</div>
+
+				</div>
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 Tool p0">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Imdb">8.5</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">7.3</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">1080</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">+18</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">Sub On</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">Dub On</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">English</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Lib-Down">Buy</div>
+				</div>
+				<div class="col-lg-3 col-md-2 col-sm-2 col-xs-3 New-I p0">
+					<div class="Dubbed-Post">دوبله</div>
+					<img src="img/6.jpg" class="img-responsive" alt="Cinque Terre">
+				</div>
+
+				<div  class="col-lg-8 col-md-8 col-sm-12 col-xs-8 Ditailes-Post p0">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D1 p0">David Ayer</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i> کارگردان :</div></div>
+
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D1 p0">Will Smith, Margot Robbie, Jared Leto</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i> ستارگان :</div></div>
+
+
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D p0">امریکا | کانادا</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i>کشور :</div></div>
+
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D p0">اکشن | ماجراجویی | فانتزی  </div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D p0">
+								<i class="fa fa-angle-left" aria-hidden="true"></i>ژانر :</div></div>
+
+
+					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 Info-Post p0"></div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Post-Ditailed p0">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-8 In-D ">کیفیت 720p و 1080p اضافه شد.</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 Ti-D ">
+								<i class="fa fa-angle-left" aria-hidden="true"></i> پیغام :</div></div>
+
+
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Story p0">
+						<p class="text-justify">در تاریخ 9 اکتبر تریلری جدید از فیلم "دیوار بزرگ چین" با بازی مت دیمن منتشر شد. "دیوار بزرگ چین" یک فیلم علمی–تخیلی آمریکایی به کارگردانی ژانگ ییمو است که قرار است در نوامبر سال ۲۰۱۶ منتشر شود.…</p></div>
+				</div>
+
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Story-Buttons p0">
+						<button	class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Download-Post">دانلود</button>
+						<button	class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Trailer-Post">تریلر</button>
+						<button class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Add-Post">Add To WatchList</button>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 Like-DisLike p0">
+							<span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 likebtn-wrapper" data-theme="custom" data-btn_size="35" data-icon_l="thmb7-u" data-icon_d="thmb7-d" data-icon_l_c="#008800" data-icon_l_c_v="#00ff00" data-icon_d_c="#880000" data-icon_d_c_v="#ff0000" data-bg_c="#9dc3ce" data-brdr_c="#9dc3ce" data-f_family="Tahoma" data-label_fs="r" data-identifier="item_1" data-show_like_label="false" data-counter_clickable="true"></span>
+							<script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script></div>
+
+					</div>
+
+				</div>
+
+        		</div>
+
+
+			</div>
+
+		
+
+
+
+
+
+	</div>
+
+
+
+	<footer>
+			<div class="container">
+
+			<div class="col-lg-8 col-md-12 col-sm-8 col-xs-12 Copy p0">تمامی حقوق مادی و معنوی قالب متعلق به این سایت بوده و کپی برداری از آن پیگرد قانونی دارد.</div>
+			</div>
+		</footer>
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+
+</body>
+</html>

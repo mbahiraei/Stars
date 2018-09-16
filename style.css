@@ -1,0 +1,895 @@
+@font-face {
+    font-family: "BYekan";
+    src: url(fonts/BYekan.eot);
+    src: url(fonts/BYekan.eot?#iefix) format("embedded-opentype"), url(fonts/BYekan.woff) format("woff"), url(fonts/BYekan.ttf) format("truetype"),    	
+	url(fonts/BYekan.svg) format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background: #f9f9f9;
+}
+.p0 {
+    padding: 0!important;
+}
+
+.container {
+	width: 950px!important;
+}
+
+.header {
+	height: auto;
+	border-top: 3px solid #B9121B;
+	background-color: #05486C;
+}
+.menu {
+	float: left;
+}
+.search {
+	float: right;
+    text-align: right;
+}
+.menu_top_open_close {
+	float: right!important;
+	direction: rtl;
+    display: none;
+	background: #1c7c1c;
+	border-top: 5px solid #B9121B;
+    font-family: "BYekan";
+}
+.row a {
+	text-decoration: none;
+    color: #000;
+}
+.row a:hover{
+	color: #FFF;
+}   
+.search_top_open_close {
+	float: left;
+    display: none;
+	height: auto;
+}
+.button-menu {
+	background: #B9121B;
+    border: none;
+    color: white;
+    padding: 15px;
+    font-size: 30px;
+}
+.column {
+    text-align: center;
+	margin-top: 5px;
+	padding-bottom: 15px;
+    height: auto;
+	direction: rtl;
+	float: right!important;
+}
+.button-search {
+	background: #B9121B;
+    border: none;
+    color: white;
+	text-align: center;
+    padding: 15px;
+    font-size: 30px;
+}
+.Bttn-Search i {
+	text-align: center;
+	line-height: 22px;
+}
+.search_top {
+    float: right;
+    text-align: center;
+	border-top: 5px solid #B9121B;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.center {
+	height: 60px;
+	background-image: url(img/logo.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 140px 60px;
+}
+
+
+
+.Title-N-P {
+    background-color: #005686;
+    margin-top: 5px;
+	float: left;
+	height: 30px;
+}
+.Pev-Movie {
+    height: 30px;
+    float: left;
+    background-color: #B9121B;
+	color: snow;
+	text-align: center;
+	line-height: 42px;
+}
+.Pev-Movie:hover {
+	color: #795c78;
+}
+.Next-Movie {
+    height: 30px;
+    float: left;
+    background-color: #B9121B;
+	color: snow;
+	text-align: center;
+	line-height: 42px;
+}
+.Next-Movie:hover {
+	color: #795c78;
+
+}
+.row-NewP {
+	height: auto;
+    margin-top: 2px;
+    float: left;
+}
+.New-1, .New-00 { 
+	height: auto;
+    float: left;
+    list-style: none;
+	position: relative;
+}
+.New-1:hover {
+    opacity: 0.8;
+}
+.New-1 a {
+    text-decoration: none;
+}
+.Tv-01 img {
+	margin-bottom: 1px!important;
+	position: relative;
+}
+.Movie-Name-1 {
+	position: absolute;
+    text-align: center;
+    padding: 5px!important;
+    font-weight: 400;
+	background-color: black;
+    font-size: 1rem;
+	opacity: 0.75;
+	color: snow;
+    font-family: tahoma;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
+
+.L-News {
+    height: auto;
+    list-style: none;
+	border-right: 2px solid #B9121B;
+	margin-top: 2px;
+    background-color: snow;
+	overflow: hidden;
+}
+.L-News:hover {
+	background-color: #E1E1E1;
+}
+.L-News a {
+    text-decoration: none;
+}
+.New-Con h2 {
+    margin: 0 5px -5px 5px!important;
+	font-size: 16px!important;
+	padding-bottom: 10px!important;
+	font-family: "BYekan";
+}
+.New-Con {
+    height: 80px;
+    float: left;
+    font-family: "BYekan";
+	padding: 5px 0 5px 7px!important;
+	position: relative;
+    font-size: 12px;
+    color: black;
+    text-overflow: ellipsis;
+    direction: rtl;
+    line-height: 17px;
+    padding-left: 0;
+}
+.New-Con p {
+	padding: 3px 5px 3px 0;
+}
+.News-00 {
+	height: auto;
+	margin-top: 3px;
+	background-color: snow;
+	border-right: 2px solid #B9121B;
+}
+.News-00:hover {
+	background-color: #858585;
+	
+}
+.News-01{
+	height: auto;
+	color: black;
+    font-size: 14px;
+	padding-right: 7px!important;
+	position: relative;
+	float: right;
+    direction: rtl;
+	line-height: 35px;
+    font-family: "BYekan";
+}
+.News-01 small {
+	float: left;
+	color: black;
+	padding-left: 7px!important;
+	position: relative;
+    direction: rtl;
+	line-height: 35px;
+    font-family: "BYekan";
+}
+.Date {
+	height: auto;
+	float: left;
+	color: black;
+	background: #d0e0e0;
+    font-size: 10px;
+	padding-right: 2px;
+	text-align: left;
+    direction: rtl;
+	line-height: 35px;
+    font-family: "BYekan";
+	position: absolute;
+}
+.Date:hover {
+	background-color: #f0f0e0;
+}
+
+
+.Post-Tittle {
+    height: 28px;
+    background-color: #9DC3CE;
+	padding-right: 10px!important;
+	color: black;
+    font-size: 14px;
+    text-align: right;
+	margin-top: 5px;
+    font-family: "BYekan";
+	line-height: 28px;
+}
+.row-NewP01 {
+    float: left;
+}
+.New-01 { 
+	height: auto;
+    float: left;
+    list-style: none;
+	position: relative;
+}
+.New-01:hover {
+    opacity: 0.8;
+}
+.New-01 a {
+    text-decoration: none;
+}
+.New-00 img {
+	position: relative;
+}
+.News-img {
+	float: right!important;
+	position: absolute;
+	padding-left: 5px!important;
+}
+.New-img img {
+	height: 100%;
+	margin: auto 0;
+}
+.Movie-Name {
+	position: absolute;
+    text-align: center;
+    padding: 5px!important;
+    font-weight: 400;
+	background-color: black;
+    font-size: 1rem;
+	opacity: 0.75;
+	color: snow;
+    font-family: tahoma;
+    bottom: 8px;
+    left: 0;
+    right: 0;
+}
+.Info-B {
+	height: auto;
+	background-color: #005686;
+    font-family: "BYekan";
+    font-size: 14px;
+	float: right;
+	margin-bottom: 3px;
+    color: black;
+	text-align: center;
+	border: none;
+}
+.Quality , .Dubbed{
+	background-color: #EE1100;
+	float: right;
+	margin-top: 2px!important;
+	margin-left: 2px!important;
+	padding: 2px 5px!important;
+	opacity: 0.8;
+	position: absolute;
+	color: snow;
+    font-size: 1rem;
+    text-align: center;
+    font-family: tahoma;
+   	top: 0;
+    left: 0;
+}
+.Dubbed {
+	font-family: "BYekan" !important;
+	margin-left: 40px!important;
+}
+.Info-Post {
+	height: auto;
+	height: auto;
+	float: left!important;
+	background-color: snow;
+	display: none;
+	border-right: 2px solid #FF1100;
+	border-bottom: 2px solid #DDD;
+    font-family: "BYekan";
+    font-size: 11px/2;
+    color: black;
+	text-align: right;
+    direction: rtl;
+    line-height: 27px;
+}
+.Story-Post {
+	height: auto;
+	float: left;
+	margin-top: 2px;
+	border-right: 2px solid #B9121B;
+}
+.Download-Post , .Trailer-Post, .Add-Post, .likebtn-wrapper {
+	text-align: center;
+	background-color: #9DC3CE;
+	border: none;
+	float: left;
+    font-family: tahoma;
+    font-size: 14px;
+    color: black;
+    overflow: hidden;
+    direction: rtl;
+    line-height: 10px!important;
+	height: 35px;
+}
+.likebtn-wrapper {
+	padding-top: 10px;
+}
+.Story {
+    height: auto;
+    float: left;
+    font-family: "BYekan";
+    font-size: 12px;
+	padding-top: 10px;
+    color: black;
+	text-align: right;
+    overflow: hidden;
+    direction: rtl;
+    line-height: 17px;
+}
+.Ditailes-Post {
+	height: auto;
+	float: left;
+}
+.Ditailes-Post {
+	margin: 0!important;
+    list-style-type: none;
+}
+
+.Post-Ditailed{
+	height: auto;
+	background-color: snow;
+	border-right: 2px solid #FF1100;
+	border-bottom: 2px solid #EEE;
+    font-family: "BYekan";
+    font-size: 11px/2;
+	float: right;
+    color: black;
+	text-align: right;
+    direction: rtl;
+    line-height: 27px;
+}
+.Ti-D , .In-D {
+	font-family: "BYekan";
+    font-size: 11px/1;
+	padding: 5px 5px 5px 0!important;
+    color: black;
+	text-align: right;
+    overflow: hidden;
+    direction: rtl;
+    line-height: 15px;
+}
+.Ti-D1 , .In-D1 {
+    font-family: tahoma;
+    font-size: 11px;
+	padding-top: 5px!important;
+	padding-left: 5px!important;
+    color: black;
+	text-align: left;
+    overflow: hidden;
+    direction: ltr;
+    line-height: 17px;
+}
+.Ti-D, .Ti-D1 {
+	border-left: 1px solid #EEE;
+}
+.Ti-D i {
+	padding-left: 5px;
+}
+
+
+
+.Tv-01 {
+	height: auto;
+	float: left;
+	position: relative;
+}
+.Tv-01:hover{
+    opacity: 0.8;
+}
+
+.Tv-Ser {
+	height: auto;
+	margin-top: 2px;
+	float: left;
+}
+
+.New-001 {
+	float: left;
+	height: auto;
+	border: 1px solid #eee;
+}
+.New-0 {
+	float: left;
+}
+.Season , .Episod{
+	background-color: #B9121B;
+	float: right;
+	padding: 2px 5px!important;
+	opacity: 0.8;
+	position: absolute;
+	color: snow;
+    font-size: 1rem;
+    text-align: center;
+    font-family: tahoma;
+	top: 0;
+}
+.Episod {
+	margin-left: 28px!important;
+}
+
+.News {
+	margin-top:1px!important;
+	height: auto;
+}
+
+.row-NewP00 {
+	margin-top: 1px;
+	float: left;
+}
+.All-Tv {
+	background-color: #EE1100;
+	width: auto;
+	padding: 6px 10px!important;
+	float: left;
+	color: snow;
+	border: none;
+    font-size: 14px;
+    text-align: right;
+    font-family: "BYekan";
+}
+
+
+
+
+footer {
+	background-color: #1c7c1c;
+	padding: 20px 0;
+	opacity: 0.7; 
+    background-position: center;
+	color: black;
+	border-top: 1px solid #000;
+}
+
+.First-Page, .Go-Top, .Movie-Ar, .Ser-Ar, .Cont {
+	height: auto;
+	direction: rtl;
+	background-color: #888;
+	color: snow;
+	border: none;
+    font-size: 14px;
+    text-align: right;
+    font-family: "BYekan";
+	padding: 15px!important;
+	float: right!important;
+}
+.Copy {
+	height: auto;
+	direction: rtl;
+	padding: 6px!important;
+	color: #000;
+    font-size: 14px;
+    text-align: right;
+    font-family: "BYekan";
+}
+
+
+.Search-Add {
+	direction: rtl;
+	border: 1px solid #000;
+}
+.Search-Add i {
+	padding: 6px 0 6px 10px!important;
+}
+
+
+
+
+
+.New-Post1 {
+	height: auto;
+}
+
+.Next-per-btn {
+	height: 30px;
+}
+
+.Post-Tittle-0 {
+    height: 28px;
+    background-color: #005686;
+	color: black;
+    font-size: 14px;
+    text-align: center;
+    font-family: "BYekan";
+	line-height: 28px;
+}
+
+.New-I {
+	height: auto;
+	float: right!important;
+}
+
+.All-DPost {
+	height: auto;
+	margin-top: 5px!important;
+}
+
+.Post-Ditailed {
+	height: auto;
+}
+
+.News-0 {
+	float: right;
+	margin-top: 1px;
+	height: auto;
+}
+
+.Seryal {
+	height: auto;
+	float: left;
+}
+
+
+.Tr-01 {
+	height: auto;
+	float: left;
+}
+.Tr-01:hover{
+    opacity: 0.8;
+}
+
+.All-Post {
+	height: auto;
+}
+
+.Post-Name {
+    height: auto;
+    background-color: #7A8381;
+	color: black;
+    font-size: 14px;
+    font-family: tahoma;
+	border-right: 2px solid #B9121B;
+	text-align: right;
+	line-height: 28px;
+}
+
+.Dubbed-Post {
+	background-color: #B9121B;
+	float: right;
+	margin-top: 2px!important;
+	margin-left: 2px!important;
+	padding: 2px 5px!important;
+	opacity: 0.8;
+	position: absolute;
+	color: snow;
+    font-size: 1rem;
+    text-align: center;
+    font-family: tahoma;
+}
+
+.Head-Top1 {
+	height: auto;
+	margin-top: 5px;
+	float: left;
+    background-color: #C5C5C5;
+	border-bottom: 4px solid #005686;
+}
+.Lib-Down {
+	display: block;
+	float: left;
+    height: 28px;
+    background-color: #005686;
+	padding: 3px 5px!important;
+	border-bottom: 1px solid #fff;
+	color: snow;
+    font-size: 11px;
+    text-align: center;
+    font-family: tahoma;
+}
+
+
+
+.Head-Top {
+	height: auto;
+	margin-top: 5px;
+	float: left;
+    background-color: #C5C5C5;
+	border-bottom: 4px solid #EE1100;
+}
+.Lib-Top {
+    height: auto;
+	float: right;
+	padding: 1px 10px!important;
+	color: black;
+	border: none;
+    font-size: 14px;
+    text-align: right;
+    font-family: "BYekan";
+	line-height: 30px;
+}
+.Lib-Top i {
+	padding-left: 10px;
+	line-height: 20px;
+}
+.slick-next {
+    height: auto;
+    float: left;
+    background-color: #EE1111;
+	padding: 2px 5px!important;
+	margin-left: 1px;
+	color: snow;
+	text-align: center;
+	line-height: 3px;
+	border: none;
+	border-top-right-radius: 5px;
+}
+.slick-next:hover {
+	color: #795c78;
+}
+.slick-prev {
+    height: auto;
+    float: left;
+    background-color: #EE1100;
+	margin: 0!important;
+	padding: 2px 5px!important;
+	color: snow;
+	text-align: center;
+	line-height: 3px;
+	border: none;
+	border-top-left-radius: 5px;
+}
+.slick-prev:hover {
+	color: #795c78;
+}
+
+
+.Like {
+	color: green;
+}
+.DisLike {
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.owl-carousel {
+	display: block;
+	height: auto;
+	border-color: #631F21;
+	float: left;
+}
+.item {
+	background: #000;
+	height: auto;
+	float: left;
+}
+
+
+
+.Tool {
+	height: auto;
+}
+.Imdb {
+    height: 28px;
+    background-color: #BDD91B;
+	padding: 0 5px!important;
+	color: snow;
+    font-size: 14px;
+    text-align: center;
+    font-family: tahoma;
+	line-height: 28px;
+}
+
+.Space {
+	float: right!important;
+}
+
+
+.Side  {
+	border-left: 3px solid #fff;
+	float: right!important;
+	height: auto;
+	margin-top: 3px;
+    background-color: #eee;
+	padding: 2px 5px!important;
+	color: snow;
+    font-size: 14px;
+    text-align: right;
+    font-family: "BYekan";
+}
+.All-Tis {
+	float: right!important;
+	height: auto;
+}
+
+.VIP-B {
+	height: auto;
+	direction: rtl;
+	text-align: right;
+	float: right!important;
+}
+
+.Top-W, .Movie-W, .Top-A, .Ser, .Movie  {
+	float: right;
+	height: auto;
+	width: auto;
+	margin-top: 3px;
+    background-color: #eee;
+	padding: 2px 5px!important;
+	color: black;
+    font-size: 14px;
+    text-align: right;
+    font-family: "BYekan";
+}
+.Top-W ul, .Movie-W ul, .Top-A ul, .Ser ul, .Movie ul {
+	list-style: circle;
+	background-color: #eee;
+	direction: rtl;
+	margin-bottom: 3px;
+	opacity: 0.7;
+	width: 100%;
+	float: right;
+	margin-top: 10px;;
+}
+.Ser {
+	font-family: tahoma;
+}
+
+.Year, .Collection, .Zhanr, .Q-M  {
+	height: auto;
+	margin-top: 3px;
+	width: auto;
+	float: left;
+    background-color: #eee;
+	padding: 2px 5px!important;
+	color: black;
+    font-size: 14px;
+    text-align: right;
+    font-family: "BYekan";
+	border-bottom: 1px solid #fff;
+}
+
+.T-Year {
+	direction: rtl;
+	float: left!important;
+	margin-top: 3px;
+	text-align: center;
+}
+.Year ul li a {
+	color: black;
+}
+.VIP-Head {
+	border-bottom: 1px solid #fff;
+	border-right: 2px solid red ;
+	height: auto;
+	margin-bottom: 3px;
+	margin-top: 5px;
+    background-color: #c5c5c5;
+	padding: 2px 15px!important;
+	color: black;
+    font-size: 14px;
+    text-align: right;
+    font-family: "BYekan";
+}
+
+
+.VIP-In, #Y-01, #Z-01, #C-01, #Q-01 {
+	cursor: pointer;
+}
+
+.Head {
+	height: auto;
+	border-bottom: 1px solid #000;
+	padding: 3px 15px;
+	background-color: #ddd;
+	border-right: 2px solid red ;
+}
+
+
+
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+	float: right;
+	color: white;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
